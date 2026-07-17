@@ -1,13 +1,12 @@
 package Playwright_Project.Playwright_Project;
 
 import java.util.regex.Pattern;
-
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.assertions.PlaywrightAssertions;
-
+// remove space
 public class signUpTest {
 
 	static Browser browser;
