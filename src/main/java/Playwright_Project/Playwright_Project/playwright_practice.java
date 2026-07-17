@@ -10,7 +10,7 @@ public class playwright_practice {
 		Playwright pw = Playwright.create();
 		BrowserType browserType = pw.chromium();
 		Browser browser = browserType
-				.launch(new BrowserType.LaunchOptions().setHeadless(false).setChannel("msedge").setSlowMo(10));
+				.launch(new BrowserType.LaunchOptions().setHeadless(true).setChannel("msedge").setSlowMo(10));
 		Page page = browser.newPage();
 		page.navigate("https://www.google.com/");
 		String title = page.title();
