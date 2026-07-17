@@ -1,15 +1,15 @@
 package Playwright_Project.Playwright_Project;
 
 import java.util.regex.Pattern;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.assertions.PlaywrightAssertions;
+
+// Removed whitespace from file.
 
 public class loginLogOutTest {
 
