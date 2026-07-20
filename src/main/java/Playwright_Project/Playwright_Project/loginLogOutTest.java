@@ -29,6 +29,8 @@ public class loginLogOutTest {
 			//PlaywrightAssertions.assertThat(page).hasTitle("Learn Automation Courses"); // It will wait for 5 sec.
 			
 			Assert.assertTrue(page.title().contains("Learn Automation Courses"));
+
+			// Enter EmailID, Password, Click on login Button & Verify the Welcome message. 
 			
 			page.getByPlaceholder("Enter Email").fill("admin@email.com");
 			
@@ -39,6 +41,8 @@ public class loginLogOutTest {
 			PlaywrightAssertions.assertThat(page.locator(".welcomeMessage")).containsText("Welcome");
 			
 			Assert.assertTrue(page.locator(".welcomeMessage").textContent().contains("Welcome"));
+
+			// Sign Out User & check user is on Home Page. 
 			
 			page.getByAltText("menu").click();
 			
