@@ -24,6 +24,8 @@ public class signUpTest {
 			
 			page.locator(".subLink").click();
 			
+			//Fill SignUp form, Click on Submit button & Verify email already registered or not.
+			
 			page.locator("#name").fill("Yogesh Potdar");
 			
 			page.locator("#email").fill("yogeshpotdar@email.com");
